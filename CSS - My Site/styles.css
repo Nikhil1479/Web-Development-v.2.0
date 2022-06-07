@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/************************ Headings **********************/
+h1 {
+    /* top: 50px; */
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+hr {
+    margin: 50px auto 50px auto;
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 9px;
+    color: #828d8b;
+
+}
+
+.copyright {
+    margin-bottom: 0;
+    color: white;
+}
+
+.footer-link {
+    margin-right: 50px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #11999E;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    color: white;
+    /* transition-delay: 1s; */
+    transition-duration: 0.5s;
+}
+
+.contact-me-p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    color: #66BFBF;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-color: #66BFBF;
+}
+
+.btn:hover {
+    background-color: #66BFBF;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+/******************************* Divs *******************************/
+.top-container {
+    background-color: #E4F9F5;
+    margin: 0px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container {}
+
+.bottom-container {
+    background-color: #66BFBF;
+    /* margin-bottom: 0; */
+    padding: 30px 0 10px;
+    margin-top: 70px;
+}
+
+
+
+
+/******************************* Images *****************************/
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+}
+
+.programmer {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.problem-solving {
+    width: 32%;
+    /* border-radius: 10%; */
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-photo {
+    margin-top: 50px;
+    width: 15%;
+}
