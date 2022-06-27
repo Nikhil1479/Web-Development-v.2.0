@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"livePreview.defaultPreviewPath": "/CSS - My Site/index.html"
+		"livePreview.defaultPreviewPath": "/CSS - My Site/index.html",
+		"files.associations": {
+			"stdlib.h": "c",
+			"stdio.h": "c"
+		}
 	}
 }
